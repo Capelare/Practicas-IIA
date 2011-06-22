@@ -1,17 +1,19 @@
-#**********************#
+;**********************;
 ;      IIA  10/11      ;
 ;      Practica 6      ;
 ; Miguel Gomez Gonzalo ;
-#**********************#
+;**********************;
 
 (deffacts operadores
-   (op arr) (op aba) (op izq) (op der))
+	(op arr)
+	(op aba)
+	(op izq)
+	(op der)
+)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Funciones auxiliares ;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-
 
 (deffunction posicion (?num $?elems)
 	(bind ?p (member$ ?num $?elems))
@@ -143,5 +145,5 @@
 )
 
 (deffacts inicial
-   (e 8 5 6 3 0 1 4 2 7)
+   (e 2 8 3 1 6 4 7 0 5)
 )
